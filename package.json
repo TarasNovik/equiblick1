@@ -5,7 +5,7 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "vite build --base=/novik-ships/",
+    "build": "vite build --base=/equiblick1/",
     "preview": "vite preview"
   },
   "devDependencies": {
