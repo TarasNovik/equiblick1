@@ -63,7 +63,8 @@
   }
 
   .header-logo {
-    font-size: 30px;
+    font-size: 20px;
+    padding-right: 30px;
   }
 
   .header-nav-social {
