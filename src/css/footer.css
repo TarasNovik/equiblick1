@@ -25,11 +25,10 @@
     display: flex;
     gap: 4px;
     flex-wrap: wrap;
+    margin-top: 20px;
 }
 
-.ul {
-    margin: 10px;
-}
+
 
 .footer-a {
     font-size: 9px;

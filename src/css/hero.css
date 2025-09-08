@@ -66,8 +66,8 @@ screen and(min-device-pixel-raito: 2) and (max-width: 767px) {
                 rgba(17, 19, 31, 0.00) 99.94%),
             url(../img/hero/hero-tablet.jpg);
 
-        padding-top: 280px;
-        padding-bottom: 215px;
+        padding-top: 180px;
+        padding-bottom: 80px;
     }
 
     .hero-title {
