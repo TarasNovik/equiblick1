@@ -24,6 +24,11 @@
 .footer-navigation-list {
     display: flex;
     gap: 4px;
+    flex-wrap: wrap;
+}
+
+.ul {
+    margin: 10px;
 }
 
 .footer-a {
@@ -35,7 +40,7 @@
 
 .footer-navigation-item {
     display: flex;
-    width: 66px;
+    width: 80px;
     height: 40px;
     border-radius: 8px;
     background: rgba(251, 251, 251, 0.30);
