@@ -16,10 +16,12 @@ body {
     background-color: #0E1823;
 }
 
-img {
+.img {
     border-radius: 24px;
     width: 100%;
 }
+
+
 
 
 
