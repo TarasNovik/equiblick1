@@ -1,29 +1,31 @@
-.ouryachts {
+.box {
     background-color: #0E1823;
     padding-top: 40px;
     padding-bottom: 80px;
 }
 
-
-
-.ouryachts-title {
+.box-title {
     text-align: center;
     font-size: 28px;
     padding: 40px 8px;
 }
 
-.ouryachts-cards {
+.box-cards {
     display: flex;
-    gap: 32px;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    gap: 16px;
 }
 
-.ouryachts-card-1,
-.ouryachts-card-2,
-.ouryachts-card-3 {
+.trade-card {
+
     border-radius: 24px;
     background-color: #FBFBFB;
     padding: 16px;
-
+    width: calc((100% - 48px) / 1);
+    flex-shrink: 0;
+    position: relative;
+    transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .overley {
@@ -37,37 +39,22 @@
     padding-right: 32px;
     padding-left: 32px;
     padding-top: 40px;
-    background-color: #4d5ae5;
+    background-color: #0E1823;
     width: 100%;
     height: 100%;
     transform: translateY(100%);
     transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.ouryachts-card-1 {
-    width: calc((100% - 48px) / 3);
-    padding-bottom: 0px;
-    flex-shrink: 0;
-    background: #FFF;
-    position: relative;
-    transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
-
-.ouryachts-card-1:hover {
-    box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08),
-        0px 1px 1px 0px rgba(46, 47, 66, 0.16),
-        0px 1px 6px 0px rgba(46, 47, 66, 0.08);
-}
-
-.card-over {
+.trade-over {
     position: relative;
     overflow: hidden;
+
 }
 
-.card-over:hover .overley {
+.trade-over:hover .overley {
     transform: translateY(0%);
 }
-
 
 .our-card-content {
     padding: 16px;
@@ -76,6 +63,7 @@
 
 .our-card-title {
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-between;
     padding: 16px 0px;
     border-bottom-color: rgba(4, 3, 6, 0.10);
@@ -83,7 +71,7 @@
     border-bottom-style: groove;
 }
 
-.ouryacht-name {
+.trade-name {
     color: #1B414B;
     font-size: 14px;
     line-height: 118%;
@@ -91,7 +79,7 @@
     text-transform: uppercase;
 }
 
-.ouryacht-klass {
+.firma {
     color: #040306;
     font-size: 12px;
     font-weight: 400;
@@ -104,6 +92,7 @@
 .our-card-capacity {
     padding-top: 16px;
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-between;
     color: #040306;
     font-size: 14px;
@@ -145,19 +134,29 @@
     color: #1B414B;
 }
 
+
 @media screen and (min-width: 768px) {
-    .ouryachts-card-2 {
-        display: block;
+    .box-cards {
+        flex-direction: row;
+        gap: 25px;
     }
 
-    .ouryachts-card-3 {
-        display: none;
+    .trade-card {
+        width: calc((100% - 48px) / 4);
     }
 
-    .ouryachts-title {
+    .box-title {
         font-size: 48px;
         padding: 75px 24px;
 
+    }
+
+    .our-card-title {
+        flex-wrap: nowrap;
+    }
+
+    .our-card-capacity {
+        flex-wrap: nowrap;
     }
 
     .our-a {
@@ -172,27 +171,23 @@
 
 @media screen and (min-width: 1280px) {
 
-    .ouryachts-card-3,
-    .ouryachts-card-2 {
-        display: block;
-    }
 
-    .ouryachts-cards {
+    .box-cards {
         gap: 25px;
     }
 
-    .ouryachts-title {
+    .box-title {
         padding: 75px 243px;
     }
 }
 
 @media screen and (min-width: 1440px) {
-    .ouryachts-cards {
+    .box-cards {
         gap: 32px;
         justify-content: center;
     }
 
-    .ouryachts-title {
+    .box-title {
         padding: 75px 313px;
     }
 }
