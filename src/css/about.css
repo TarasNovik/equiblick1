@@ -11,7 +11,7 @@
 .about-title {
     color: #1B414B;
     font-size: 28px;
-    padding-bottom: 40px;
+
 }
 
 .about-text-1 {
@@ -46,19 +46,8 @@
 
     .about-title {
         font-size: 48px;
-        padding-bottom: 50px;
     }
 
-    .about-text-1 {
-        width: 389px;
-        font-size: 23px;
-        padding-bottom: 20px;
-    }
-
-    .about-text-2 {
-        font-size: 13px;
-        width: 385px;
-    }
 
 
 }
@@ -73,20 +62,6 @@
     }
 
 
-    .about-title {
-        padding-bottom: 50px;
-
-    }
-
-
-    .about-text-1 {
-        width: 354px;
-    }
-
-    .about-text-2 {
-        width: 354px;
-    }
-
 
 }
 
@@ -96,14 +71,6 @@
         padding: 50px 50px 100px 50px;
         display: flex;
         gap: 229px;
-    }
-
-    .about-text-1 {
-        width: 404px;
-    }
-
-    .about-text-2 {
-        width: 404px;
     }
 
 
