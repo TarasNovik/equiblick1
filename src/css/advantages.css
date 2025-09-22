@@ -1,3 +1,7 @@
+.advantages {
+    padding-top: 40px;
+}
+
 .advantages-list {
     display: flex;
     padding: 80px 20px 80px 20px;
@@ -25,7 +29,7 @@
 
 .adv-list-nomer {
     color: #FBFBFB;
-    font-family: Inter;
+
     font-size: 28px;
     letter-spacing: -0.05em;
     margin-bottom: 18px;
