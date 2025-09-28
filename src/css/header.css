@@ -142,6 +142,7 @@
   }
 
   .header-nav-social {
+    padding-left: 60 px;
     gap: 9px;
   }
 }
