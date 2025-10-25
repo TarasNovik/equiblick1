@@ -142,7 +142,14 @@
   }
 
   .header-nav-social {
-    padding-left: 60 px;
+
     gap: 9px;
+  }
+
+  .header-social-list {
+    display: flex;
+    gap: 8px;
+    align-items: center;
+    padding-left: 60px;
   }
 }
