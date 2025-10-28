@@ -141,6 +141,11 @@
         gap: 25px;
     }
 
+    .overley {
+
+        font-size: 5px;
+    }
+
     .trade-card {
         width: calc((100% - 48px) / 4);
     }
@@ -151,9 +156,6 @@
 
     }
 
-    .our-card-title {
-        flex-wrap: nowrap;
-    }
 
     .our-card-capacity {
         flex-wrap: nowrap;
@@ -172,7 +174,7 @@
 @media screen and (min-width: 1280px) {
     .overley {
 
-        font-size: 8px;
+        font-size: 12px;
     }
 
     .box-cards {
