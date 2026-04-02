@@ -5,9 +5,11 @@ import FullReload from 'vite-plugin-full-reload';
 
 export default defineConfig(({ command }) => {
   return {
+    base: '/equiblick1/',
     define: {
       [command === 'serve' ? 'global' : '_global']: {},
     },
+
     root: 'src',
     build: {
       sourcemap: true,
